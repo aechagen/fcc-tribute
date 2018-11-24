@@ -89,19 +89,23 @@ a:hover { text-decoration: underline; }
 
 /* Media queries */
 
-@media (min-width: 576px) {
+@media (max-width: 576px) { /* Still pretty freaking confused with min-max width. This is what I want though. */
   .container {
     max-width: 540px;
   }
+  .display-2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .container {
     max-width: 720px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .container {
     max-width: 1140px;
   }
@@ -111,3 +115,16 @@ a:hover { text-decoration: underline; }
 
 /* Actual page styles */
 
+.container {
+  background-color: #dedede;
+}
+
+#img-wrapper {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+#img-wrapper img {
+  height: 650px;
+}

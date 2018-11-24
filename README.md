@@ -1,4 +1,4 @@
-# "Starting Template"
+# FCC Tribute Page
 
-.. It's basically just a bunch of base styles that I like, as well
-as some cool CSS stuff I like right now. 
+- Because Codepen wouldn't properly load images and it drove me crazy
+- See gh-pages page at [FCC-Tribute](https://aechagen.github.com/fcc-tribute)
