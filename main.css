@@ -7,6 +7,8 @@
   --background-color: darkgrey;
 }
 
+
+
 /* Utilities that I utilize */
 
 .text-center {
@@ -34,6 +36,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 
 
 /* General styles */
@@ -104,27 +107,7 @@ a:hover { text-decoration: underline; }
   }
 }
 
-/* Navigation styles */
 
-.nav {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
 
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-}
+/* Actual page styles */
 
-.navbar {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0.5rem 1rem;
-}
