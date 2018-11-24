@@ -119,12 +119,23 @@ a:hover { text-decoration: underline; }
   background-color: #dedede;
 }
 
-#img-wrapper {
+#img-div {
   background-color: #ffffff;
+  border-radius: 2px;
   display: flex;
   justify-content: center;
 }
 
-#img-wrapper img {
-  height: 650px;
+#img-div img {
+  height: 450px;
+}
+
+#tribute-info {
+  display: flex; /* Because I can use this now, like a badass. */
+  flex-direction: column;
+  align-items: center;
+}
+
+#timeline .date {
+  font-weight: 700;
 }
